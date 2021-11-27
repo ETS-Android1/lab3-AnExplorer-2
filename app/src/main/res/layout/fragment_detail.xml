@@ -107,6 +107,31 @@
                     android:layout_height="wrap_content"
                     android:paddingEnd="8dp"
                     android:paddingRight="8dp"
+                    android:text="Last modified:"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/modified"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:fontFamily="sans-serif-regular"
+                    android:minHeight="38dp"
+                    android:textAlignment="viewStart"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp"
                     android:text="Size:"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -140,31 +165,6 @@
 
                 <TextView
                     android:id="@+id/contents"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="start"
-                    android:fontFamily="sans-serif-regular"
-                    android:minHeight="38dp"
-                    android:textAlignment="viewStart"
-                    android:textSize="18sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingEnd="8dp"
-                    android:paddingRight="8dp"
-                    android:text="Last modified:"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/modified"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"

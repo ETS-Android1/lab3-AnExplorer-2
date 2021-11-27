@@ -663,7 +663,7 @@ public class DocumentsActivity extends BaseActivity implements MenuItem.OnMenuIt
         mToolbar.setNavigationContentDescription(R.string.drawer_open);
         mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void (View v) {
                 setRootsDrawerOpen(!isRootsDrawerOpen());
             }
         });
