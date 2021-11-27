@@ -80,7 +80,7 @@
                     android:layout_height="wrap_content"
                     android:paddingEnd="8dp"
                     android:paddingRight="8dp"
-                    android:text="Type:"
+                    android:text="TYPE:"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
