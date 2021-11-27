@@ -89,6 +89,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
+                    android:background="@color/accent_pink"
+                    android:backgroundTint="@color/item_doc_apk"
                     android:fontFamily="sans-serif-regular"
                     android:minHeight="38dp"
                     android:textAlignment="viewStart"
